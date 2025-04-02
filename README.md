@@ -24,6 +24,7 @@ Once your repository is created, follow those steps:
 - Place your handlers in `manifest/handlers`
 - Please do not touch the following files and folders: `.vscode`, `.gitignore`, `Dockerfile` and the `package.json` scripts.
 - Ensure that main branch is called **main**.
+- In `package.json`, adapt the name, description and version of your template.
 
 Then you can adapt the `README.md` (this file !)
 
