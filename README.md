@@ -9,11 +9,32 @@
 </p>
 
 <p align='center'>
-<strong>A backend so simple that it fits into 1 YAML file</strong>
+<strong>Manifest template²</strong>
+
+## How to use this template ?
+
+Manifest template² is the template to create [Manifest templates](https://manifest.build/templates).
+
+To use it, go to its [GitHub template repository page](https://github.com/mnfst/manifest-template-template) and click on "Use this template". Set the name of your repository and its visibility to **public**. The main branch should be called **main**.
+
+This template will provide you an initial Manifest backend ready to start building your template.
+
+You can follow those steps:
+
+- Create your backend editing the `manifest/backend.yml` file
+- Place your handlers in `manifest/handlers`
+- Please do not touch the following files and folders: `.vscode`, `.gitignore`, `Dockerfile` and the `package.json` scripts.
+
+Then you can adapt the `README.md` (this file !)
+
+- Replace the main title ("Manifest template²") by the title of your template
+- Adapt the description below introducing briefly the template
+- Adapt the install and run sections below if needed
+- Remove this paragraph 👋
 
 ## Description
 
-Welcome to your [Manifest](https://github.com/mnfst/manifest) project ! Feel free to replace this README by your own.
+Welcome to your [Manifest](https://github.com/mnfst/manifest) template ! Add here a small description.
 
 ## Installation
 
