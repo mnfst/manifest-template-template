@@ -13,17 +13,17 @@
 
 ## How to use this template ?
 
-Manifest template² is the template to create [Manifest templates](https://manifest.build/templates).
+Manifest template² is the template to create [Manifest templates](https://manifest.build/templates). This template will provide you an initial Manifest backend ready to start building your own template.
 
-To use it, go to its [GitHub template repository page](https://github.com/mnfst/manifest-template-template) and click on "Use this template". Set the name of your repository and its visibility to **public**. The main branch should be called **main**.
+To use it, go to its [GitHub template repository page](https://github.com/mnfst/manifest-template-template) and click on "Use this template". Set the name of your repository and its visibility to **public**.
 
-This template will provide you an initial Manifest backend ready to start building your template.
+Once your repository is created, follow those steps:
 
-You can follow those steps:
-
+- On your newly created GitHub repo page, click on "settings" and check the **Template repository** checkbox
 - Create your backend editing the `manifest/backend.yml` file
 - Place your handlers in `manifest/handlers`
 - Please do not touch the following files and folders: `.vscode`, `.gitignore`, `Dockerfile` and the `package.json` scripts.
+- Ensure that main branch is called **main**.
 
 Then you can adapt the `README.md` (this file !)
 
